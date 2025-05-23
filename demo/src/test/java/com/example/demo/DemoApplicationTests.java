@@ -16,7 +16,9 @@ class DemoApplicationTests {
 
     @Test
     void startTask() {
-        qualityTaskService.startTask(1925713657019244546L, "");
+
+        qualityTaskService.startTask(1L, "");
+        QualityTask one= qualityTaskService.getById(1L);
     }
 
     @Test

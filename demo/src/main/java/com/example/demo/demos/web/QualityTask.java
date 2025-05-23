@@ -74,18 +74,5 @@ public class QualityTask   {
     @TableField(typeHandler = JacksonTypeHandler.class)
     private List<String> paramAppIds;
 
-    /**
-     * 数据处理开始时间
-     */
-    private LocalDateTime paramStartTime;
 
-    /**
-     * 数据处理结束时间
-     */
-    private LocalDateTime paramEndTime;
-
-    /**
-     * 规则描述
-     */
-    private String description;
 }
