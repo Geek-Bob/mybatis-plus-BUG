@@ -47,7 +47,7 @@ public class QualityTask   {
      * 枚举值：READY(就绪), RUNNING(执行中), PAUSED(已暂停),
      * COMPLETED(已完成), CANCELED(已取消)
      */
-    @TableField(typeHandler = MybatisEnumTypeHandler.class)
+
     private TaskStatusEnum taskStatus;
 
     /**

@@ -11,5 +11,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface QualityTaskService extends IService<QualityTask> {
 
 
-    Boolean startTask(Long id, String updateEmp);
+    Boolean startTask(Long id);
 }

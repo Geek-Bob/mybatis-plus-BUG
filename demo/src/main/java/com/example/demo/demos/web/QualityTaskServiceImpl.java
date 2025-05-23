@@ -16,7 +16,7 @@ public class QualityTaskServiceImpl extends SafeServiceImpl<QualityTaskMapper, Q
 
 
     @Override
-    public Boolean startTask(Long id, String updateEmp) {
+    public Boolean startTask(Long id) {
 
         QualityTask task = new QualityTask();
         task.setTaskStatus(TaskStatusEnum.RUNNING);

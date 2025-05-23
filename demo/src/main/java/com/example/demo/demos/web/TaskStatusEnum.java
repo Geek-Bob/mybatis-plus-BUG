@@ -10,9 +10,9 @@ import lombok.Getter;
 public enum TaskStatusEnum implements IEnum<String> {
     READY("READY", "就绪"),
     RUNNING("2", "执行中"),
-    PAUSED("PAUSED", "已暂停"),
-    COMPLETED("COMPLETED", "已完成"),
-    CANCELED("CANCELED", "已取消");
+    PAUSED("3", "已暂停"),
+    COMPLETED("4", "已完成"),
+    CANCELED("5", "已取消");
     private final String value;
     private final String description;
 
