@@ -5,11 +5,11 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler;
 import com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler;
+import com.example.demo.demos.enums.TaskStatusEnum;
+import com.example.demo.demos.enums.TaskTypeEnum;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 /**
@@ -47,7 +47,6 @@ public class QualityTask   {
      * 枚举值：READY(就绪), RUNNING(执行中), PAUSED(已暂停),
      * COMPLETED(已完成), CANCELED(已取消)
      */
-
     private TaskStatusEnum taskStatus;
 
     /**
