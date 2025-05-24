@@ -14,9 +14,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * 支持只更新非null字段、自动适配typeHandler和枚举、兼容继承父类字段的ServiceImpl基类
- */
+
 public class SafeServiceImpl<M extends BaseMapper<T>, T> extends ServiceImpl<M, T> {
 
 }

@@ -5,11 +5,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;
 
-/**
- * @author LuoXiangBao
- * @description
- * @date 2024/11/22 14:33
- */
+
 public interface QualityTaskService extends IService<QualityTask> {
 
 

@@ -12,11 +12,7 @@ import lombok.Data;
 
 import java.util.List;
 
-/**
- * @author LuoXiangBao
- * @description
- * @date 2024/11/22 10:43
- */
+
 @Data
 @TableName(value = "quality_task", autoResultMap = true)
 public class QualityTask   {

@@ -7,11 +7,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 
-/**
- * @author LuoXiangBao
- * @description
- * @date 2024/11/22 14:36
- */
+
 @Service
 public class QualityTaskServiceImpl extends SafeServiceImpl<QualityTaskMapper, QualityTask> implements QualityTaskService {
 
