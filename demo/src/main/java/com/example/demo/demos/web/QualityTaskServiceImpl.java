@@ -1,16 +1,15 @@
 package com.example.demo.demos.web;
 
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.example.demo.demos.enums.TaskStatusEnum;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 
-
 @Service
-public class QualityTaskServiceImpl extends SafeServiceImpl<QualityTaskMapper, QualityTask> implements QualityTaskService {
-
+public class QualityTaskServiceImpl extends ServiceImpl<QualityTaskMapper, QualityTask> implements QualityTaskService {
 
 
     @Override
@@ -24,7 +23,7 @@ public class QualityTaskServiceImpl extends SafeServiceImpl<QualityTaskMapper, Q
     }
 
     @Override
-    public Boolean updateList(Long id,List<String> ids) {
+    public Boolean updateList(Long id, List<String> ids) {
         QualityTask task = new QualityTask();
         task.setId(id);
         task.setParamAppIds(ids);
