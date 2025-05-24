@@ -14,11 +14,9 @@ public class QualityTaskServiceImpl extends ServiceImpl<QualityTaskMapper, Quali
 
     @Override
     public Boolean startTask(Long id) {
-
         QualityTask task = new QualityTask();
         task.setTaskStatus(TaskStatusEnum.RUNNING);
         task.setId(id);
-
         return updateById(task);
     }
 
