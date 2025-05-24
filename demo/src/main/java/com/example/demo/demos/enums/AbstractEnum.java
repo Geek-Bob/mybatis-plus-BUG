@@ -1,4 +1,4 @@
-package com.example.demo.demos.web;
+package com.example.demo.demos.enums;
 
 import com.baomidou.mybatisplus.annotation.IEnum;
 import com.fasterxml.jackson.annotation.JsonValue;

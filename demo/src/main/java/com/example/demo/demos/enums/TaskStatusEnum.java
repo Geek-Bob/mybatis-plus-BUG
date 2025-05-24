@@ -1,4 +1,4 @@
-package com.example.demo.demos.web;
+package com.example.demo.demos.enums;
 
 import com.baomidou.mybatisplus.annotation.IEnum;
 import lombok.Getter;
@@ -7,8 +7,8 @@ import lombok.Getter;
  * 任务状态枚举
  */
 @Getter
-public enum TaskStatusEnum implements IEnum<String> {
-    READY("READY", "就绪"),
+public enum TaskStatusEnum implements AbstractEnum {
+    READY("1", "就绪"),
     RUNNING("2", "执行中"),
     PAUSED("3", "已暂停"),
     COMPLETED("4", "已完成"),
